@@ -9,7 +9,7 @@ openrlhf.cli.train_sft \
    --train_batch_size 256 \
    --micro_train_batch_size 2 \
    --max_samples 500000 \
-   --pretrain meta-llama/Meta-Llama-3-8B \
+   --pretrain ../models/Llama-3.2-3B-Instruct \
    --save_path ./checkpoint/llama3-8b-sft \
    --save_steps -1 \
    --logging_steps 1 \

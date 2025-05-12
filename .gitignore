@@ -25,7 +25,9 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
+MANIFEST/
+
+MM-EUREKA/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -50,6 +52,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+checkpoint/
 
 # Translations
 *.mo
